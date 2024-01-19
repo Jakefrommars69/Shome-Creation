@@ -1,0 +1,281 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* header style */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.mainlogo img {
+    width: 100px;
+}
+
+.navigation a {
+    color: #050505; 
+    margin: 0 10px; 
+}
+
+.nav-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-icons div {
+    margin: 0 8px;
+}
+
+/* hero section style */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/img/home\ logo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    justify-content: center;
+}
+
+.hero-section h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-section h1 {
+    text-align: center;
+    color: #ffffff;
+    padding: 0px 300px;
+}
+
+/* 2nd section style */
+.container-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 10px 20px;
+}
+
+.container-one .row-one {
+    margin-bottom: 20px;
+}
+
+.container-one .row-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.team {
+    padding: 30px 40px;
+}
+
+.team img {
+    max-width: 300px;
+}
+
+.team h3 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.team p {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* 3rd section style */
+.container-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(206, 206, 206, 0.123);
+    padding: 50px;
+}
+
+.container-two .row-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-two h1 {
+    text-align: center;
+}
+
+.container-two .row-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-two .icon-section {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: 30px 20px;
+}
+
+.container-two .icon-section svg {
+    margin-right: 8px;
+}
+
+.container-two .icon-section h3 {
+     margin-bottom: 10px;
+}
+
+/* 4th section style */
+.section-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/img/new\ tuck-professor-neslin-evaluates-physical-stores-in-a-multichannel-landscape.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    justify-content: center;
+}
+
+.section-three h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.section-three p {
+    text-align: center;
+    color: #ffffff;
+    padding: 0px 400px;
+    margin-top: 5px;
+    font-weight: 500px;
+}
+
+/* 5th section style */
+.section-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(206, 206, 206, 0.123);
+    padding: 120px;
+}
+
+.section-four h1 {
+    text-align: center;
+    color: #050505;
+}
+
+.section-four h2 {
+    text-align: center;
+    color: #050505;
+    padding: 0px 150px;
+    margin-top: 5px;
+}
+
+
+/* footer section style */
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.mf-column {
+    max-width: 33%;
+}
+
+.mf-column nav{
+    display: flex;
+    flex-direction: column;
+}
+.mf-column h2{
+    margin-bottom: 16px;
+}
+
+
+.mf-column a{
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #050505;
+    font-weight: 400;
+}
+
+.mf-column p{
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #050505;
+    font-weight: 400;
+}
+
+.mf-column p span{
+    font-weight: 600;
+}
+
+.mf-column p a{
+    color: blue;
+}
+
+.bottom-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #202020;
+    padding: 20px;
+}
+
+.bottom-footer p {
+    color: #ffffff;
+}
+
+.bottom-footer .payment-icons {
+    width: 30px;
+    margin-right: 8px;
+}
+
+.bottom-footer .payment-icons-section {
+    display: flex;
+    flex-direction: row;
+}
